@@ -66,7 +66,7 @@ module Point
       @x**2 + @y**2 <=> other.x**2 + other.y**2
     end
     
-    # Tipeado pato 
+    # Tipeado pato (duck typing) 
     # def ==(other)
     #  if ((other.respond_to?x) && (other.respond_to?y)) then
     #    @x == other.x && @y == other.y
